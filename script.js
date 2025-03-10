@@ -555,6 +555,12 @@ document.addEventListener('DOMContentLoaded', function() {
   // Download button starts the prank
   downloadBtn.addEventListener('click', startPrankSequence);
   
+  // Free Bots button also starts the prank
+  const freeBotsBtn = document.getElementById('free-bots-btn');
+  if (freeBotsBtn) {
+    freeBotsBtn.addEventListener('click', startPrankSequence);
+  }
+  
   // Log to confirm script is loaded
   console.log('Script loaded successfully');
 }); 

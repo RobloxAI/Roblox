@@ -1055,4 +1055,15 @@ section {
 @keyframes pulse {
   from { text-shadow: 0 0 20px #ff0000, 0 0 30px #ff0000; }
   to { text-shadow: 0 0 40px #ff0000, 0 0 50px #ff0000; }
+}
+
+.prank-reveal {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  color: #ff4d4d;
+  margin-top: 2rem;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 0 0 10px #ff4d4d;
+  animation: pulse 0.5s infinite alternate;
 } 
